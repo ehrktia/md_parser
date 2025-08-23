@@ -5,5 +5,7 @@ fn main() {
     MemStore::initialize(&mut store);
     if MemStore::find_by_key(&store, "# ") {
         println!("key match found");
+    } else {
+        println!("no matching key found");
     }
 }
