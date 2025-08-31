@@ -16,7 +16,6 @@ impl MemStore {
     pub fn insert_value(&mut self, key: &str, value: usize) {
         self.store.insert(key.to_string(), value);
     }
-
     #[allow(unused_variables, dead_code)]
     pub fn initialize(&mut self) {
         let syntax_values = vec![

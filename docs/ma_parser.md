@@ -39,7 +39,9 @@ parser is used for checking language grammar defined by language
 
 `token` provides help to parser in next stage
 
-- [ ] read file into buffer
+- [x] read file into buffer
+
+- [ ] use `std::path` to build the file path and name
 
 - [ ] read lines and split by word
 
@@ -47,8 +49,6 @@ parser is used for checking language grammar defined by language
 
 - ([Compilers](https://pgrandinetti.github.io/compilers/))
 - [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-  
-  
 
 **lexical analysis**
 
